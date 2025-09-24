@@ -67,7 +67,6 @@ def scrape_jobs_on_page(driver):
 
     return jobs
 
-
 def find_and_click_next_page(driver):
     try:
         # find "Next" button and click
@@ -154,4 +153,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
